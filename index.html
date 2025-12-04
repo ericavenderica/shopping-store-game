@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Shopping Store</title>
+</head>
+<body>
+  <main>
+    <!-- game intro -->
+    <div id="game-intro">
+      <img src="./images/logo.jpeg" alt="" class="logo-img" />
+      <button id="start-btn">Start Game</button>
+      <p>Guide your basket through a vibrant adventure as a shopper, collect items to earn points, and dodge the bombs at all costs!</p>
+      <p>Use the left and right arrow keys to control the basket.</p>
+      <img src="./images/arrows.png" alt="" class="arrows-img" />
+    </div>
+
+    <!-- game screen -->
+    <div id="game-screen">
+         <div id="score-container">
+    <h2>Score: <span id="score">0</span></h2>
+     </div>
+     </div>
+    <!-- game end -->
+    <div id="game-end">
+      <img src="./images/logo.jpeg" alt="" class="logo-img" />
+      <h1>Game Over</h1>
+      <button id="restart-btn">Start New Game</button>
+    </div>
+  </main>
+  <script type="text/javascript" src="js/obstacle.js"></script>
+  <script type="text/javascript" src="js/item.js"></script>
+  <script type="text/javascript" src="js/player.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
