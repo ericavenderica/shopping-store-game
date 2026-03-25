@@ -74,7 +74,7 @@ export const GameScreen: React.FC = () => {
       <div className="hud">
         {/* Score & Level */}
         <div className="hud-panel animate-slide-in-left">
-          <div className="flex flex-col">
+          <div className="hud-score-container">
             <span className="hud-score">Score</span>
             <span className="hud-score-value">{score}</span>
           </div>
@@ -96,7 +96,7 @@ export const GameScreen: React.FC = () => {
       {/* Game Area */}
       <div 
         ref={gameAreaRef}
-        className="w-full h-screen relative"
+        className="game-area-container"
       >
         {/* Background Pattern Overlay */}
         <div className="background-pattern"></div>
