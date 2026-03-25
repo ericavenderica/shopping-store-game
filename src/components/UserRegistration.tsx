@@ -16,11 +16,11 @@ export const UserRegistration: React.FC<UserRegistrationProps> = ({ onStart }) =
 
   return (
     <div className="full-screen-container">
-      <div className="floating-background-shape shape-purple animate-float"></div>
-      <div className="floating-background-shape shape-pink animate-float animation-delay-2000"></div>
-      <div className="floating-background-shape shape-yellow animate-float animation-delay-4000"></div>
+      <div className="floating-background-shape shape-purple float-animation"></div>
+      <div className="floating-background-shape shape-pink float-animation delay-2s"></div>
+      <div className="floating-background-shape shape-yellow float-animation delay-4s"></div>
 
-      <div className="content-card animate-slide-in-left">
+      <div className="content-card slide-in-left">
         <img 
           src="/images/cropped_circle_image.png" 
           alt="Game Logo" 

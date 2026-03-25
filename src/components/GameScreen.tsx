@@ -73,7 +73,7 @@ export const GameScreen: React.FC = () => {
       {/* HUD - Heads Up Display */}
       <div className="hud">
         {/* Score & Level */}
-        <div className="hud-panel animate-slide-in-left">
+        <div className="hud-panel slide-in-left">
           <div className="hud-score-container">
             <span className="hud-score">Score</span>
             <span className="hud-score-value">{score}</span>
@@ -85,7 +85,7 @@ export const GameScreen: React.FC = () => {
         </div>
 
         {/* Player Info */}
-        <div className="hud-panel animate-slide-in-right player-info">
+        <div className="hud-panel slide-in-right player-info">
           <div className="player-avatar">
             {player.name.charAt(0).toUpperCase()}
           </div>

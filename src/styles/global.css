@@ -52,12 +52,12 @@ body {
 }
 
 .animate-blob { animation: blob 7s infinite; }
-.animation-delay-2000 { animation-delay: 2s; }
-.animation-delay-4000 { animation-delay: 4s; }
-.animate-slide-in-left { animation: slideInLeft 0.5s ease-out forwards; }
-.animate-slide-in-right { animation: slideInRight 0.5s ease-out forwards; }
-.animate-float { animation: float 3s ease-in-out infinite; }
-.animate-pop { animation: pop 0.3s ease-out; }
+.delay-2s { animation-delay: 2s; }
+.delay-4s { animation-delay: 4s; }
+.slide-in-left { animation: slideInLeft 0.5s ease-out forwards; }
+.slide-in-right { animation: slideInRight 0.5s ease-out forwards; }
+.float-animation { animation: float 3s ease-in-out infinite; }
+.pop-animation { animation: pop 0.3s ease-out; }
 
 /* Glassmorphism Utilities */
 .glass-panel {
