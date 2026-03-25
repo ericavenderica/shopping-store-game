@@ -1,0 +1,55 @@
+/* Player Styles */
+.player {
+  position: absolute;
+  transition: transform 100ms ease-out;
+}
+
+.player-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+.player-image:hover {
+  filter: brightness(1.1);
+}
+
+.player-name-tag {
+  position: absolute;
+  top: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.85); 
+  backdrop-filter: blur(4px);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.8rem; 
+  font-weight: 700;
+  color: #374151;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 0.1); 
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  white-space: nowrap;
+  max-width: 150px; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  text-align: center;
+}
+
+/* Falling Item Styles */
+.falling-item {
+  position: absolute;
+  transition: none;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07));
+}
+
+/* Obstacle Styles */
+.obstacle {
+  position: absolute;
+  transition: none;
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03));
+}
+
+.obstacle:hover {
+  filter: brightness(1.1);
+}
