@@ -27,7 +27,7 @@
   width: 50vw;
   height: 50vw;
   background-color: #845ec2;
-  animation: blob 20s infinite alternate;
+  animation: background-blob 20s infinite alternate;
 }
 
 .shape-pink {
@@ -36,7 +36,7 @@
   width: 40vw;
   height: 40vw;
   background-color: #ff6f91;
-  animation: blob 25s infinite alternate-reverse;
+  animation: background-blob 25s infinite alternate-reverse;
 }
 
 .shape-yellow {
@@ -45,7 +45,7 @@
   width: 45vw;
   height: 45vw;
   background-color: #ffc75f;
-  animation: blob 30s infinite alternate;
+  animation: background-blob 30s infinite alternate;
 }
 
 .content-card {
@@ -76,7 +76,7 @@
   border-radius: 50%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   border: 3px solid white;
-  animation: float 6s ease-in-out infinite;
+  animation: float-up-down 6s ease-in-out infinite;
 }
 
 .main-heading {
@@ -395,7 +395,7 @@
   transform: translate(-50%, -50%);
   z-index: 50;
   pointer-events: none;
-  animation: pop-in 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: pop-effect 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .level-up-card {
